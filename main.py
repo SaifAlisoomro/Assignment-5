@@ -105,4 +105,4 @@ elif choice == "Retrieve Securely":
         else:
             st.error("Please fill in all fields.")
 
-st.sidebar.text("Developed by [SAIF SOOMRO]")
+st.sidebar.text("Developed by [SAIF SOOMRO 🌍]")
