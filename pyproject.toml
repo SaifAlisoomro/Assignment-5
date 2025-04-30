@@ -1,7 +1,14 @@
-[project]
+[tool.poetry]
 name = "securea-data-encryption"
 version = "0.1.0"
 description = "Add your description here"
+authors = ["Your Name <your@email.com>"]
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = []
+packages = [{ include = "securea_data_encryption" }]  # Optional: Only if you have a source folder
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
